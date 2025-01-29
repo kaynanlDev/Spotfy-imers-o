@@ -47,12 +47,14 @@ body{
     padding: 16px;
     margin: 10px 0 0 10px;
     border-radius: 8px;
+    
+}
+.library{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-.sidebar-library .left{
+.library .left{
     color: #B6B6B6;
     font-family: 'DM sans', sans-serif;
     font-weight: 700;
@@ -60,13 +62,67 @@ body{
     display: flex;
     gap: 16px;
 }
-.sidebar-library .left a{
+.library .left a{
     color: #B6B6B6;
 }
 
-.sidebar-library button{
+.library button{
     background-color: transparent;
     border: none;
     color: #B6B6B6;
     cursor: pointer;
+}
+
+.create-playlist{
+    background-color: #242424;
+    padding: 16px;
+    color: #fff;
+    font-family: 'DM sans', sans-serif;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+.create-playlist .playlist-title{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.create-playlist .playlist-subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 16px 0 24px 0;
+}
+
+.create-playlist button{
+    font-size: 12px;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 113px;
+    cursor: pointer;
+}
+
+.cookies{
+    margin: 32px 0 32px 0;
+    font-family: 'DM sans', sans-serif;
+    font-size: 12px;
+    color: #B6B6B6;
+}
+
+.language button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #b6b6b663;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.language button span{
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'DM sans', sans-serif;
 }
